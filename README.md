@@ -20,8 +20,9 @@ Of course, and here we are:
 NPM package
 
 ```
-npm install -g json-editor-online
-json <filename.json>
+$ npm install -g json-editor-online
+
+$ json <filename.json>
 
 ```
 
