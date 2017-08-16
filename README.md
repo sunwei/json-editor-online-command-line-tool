@@ -3,6 +3,36 @@ JSON editor online command line tool for you to edit you local json file online
 
 ![Gif JSON editor online](json-demo.gif)
 
+### JSON editor online command line - free your hands
+
+For super star JSON, all the IDE and online tools all supported well.
+
+But for the lazy man like me, still too complex.
+
+1. I need to open local json file, double click or right click.
+2. After open it, I also need to copy it to clipboard.
+3. When I get it in clipboard, then I need to open the web tool (only if i could remember the long bored address), and paste to it.
+
+It's really complex, is there a way, that I can only use one command line to open my local json file on web service?
+
+Of course, and here we are:
+ 
+NPM package
+
+```
+npm install -g json-editor-online
+json <filename.json>
+
+```
+
+Videos：
+
+[Youtube](https://www.youtube.com/watch?v=QlXht9L9hEY) 
+
+[Youku](http://v.youku.com/v_show/id_XMjk3MDc2MTcyOA==.html?spm=a2h3j.8428770.3416059.1)
+
+Enjoy!
+
 ### JSON在线编缉器命令行工具-解放你的双手
 
 对于JSON这种明星来说，哪哪儿都有对TA无微不至的关怀。各种IDE里已经成了标配、各种在线工具也是体贴入微，该有的功能都有了。
