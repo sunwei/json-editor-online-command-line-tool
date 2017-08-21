@@ -1,7 +1,13 @@
-# json-editor-online-command-line-tool
+# JSON editor online
+
+[![Node version](https://img.shields.io/badge/node-%3E%3D4.8.4-brightgreen.svg)](https://www.npmjs.com/package/json-editor-online)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+CLI tool for opening a local file in [JSON editor online](http://www.jsoneditoronline.cn/). 
+
 JSON editor online command line tool for you to edit you local json file online
 
-![Gif JSON editor online](json-demo.gif)
+![Gif JSON editor online](http://opzmk10r6.bkt.clouddn.com/json-demo.gif)
 
 ### JSON editor online command line - free your hands
 
@@ -62,6 +68,3 @@ Enjoy!
 [Youtube](https://www.youtube.com/watch?v=QlXht9L9hEY) 
 
 [Youku](http://v.youku.com/v_show/id_XMjk3MDc2MTcyOA==.html?spm=a2h3j.8428770.3416059.1)
-
-
-
