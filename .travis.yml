@@ -1,8 +1,9 @@
 language: node_js
 node_js:
   - "4"
-before_script:
-  - npm install
-"scripts": {
-  "test": "vows --spec"
+scripts: {
+  "test": "npm test"
 }
+group: "stable"
+dist: "trusty"
+os: "linux"
