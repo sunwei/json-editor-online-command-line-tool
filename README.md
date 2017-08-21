@@ -1,5 +1,6 @@
 # JSON editor online
 
+[![Build Status](https://travis-ci.org/sunzhongmou/json-editor-online-command-line-tool.svg?branch=master)](https://travis-ci.org/sunzhongmou/json-editor-online-command-line-tool)
 [![Node version](https://img.shields.io/badge/node-%3E%3D4.8.4-brightgreen.svg)](https://www.npmjs.com/package/json-editor-online)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
