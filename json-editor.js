@@ -4,7 +4,12 @@ var program = require('commander');
 var fs = require('fs');
 var path = require('path');
 var base64 = require('base-64');
+var rootURL = 'http://www.jsoneditoronline.cn/';
 
+
+function isUrl(fileString) {
+  return fileString.indexOf('http://') === 0 || fileString.indexOf('https://') === 0;
+}
 
 program
   .arguments('<file>')
@@ -12,6 +17,12 @@ program
   .option('-p, --password <password>', 'The user\'s password')
   .option('-b, --browser', 'Open the json file in the system browser')
   .action(function(file) {
+
+    if(isUrl(file)){
+      var url = rootURL + '?url=' + file;
+      require('child_process').spawn('open', [url]);
+      return;
+    }
 
     var lastSlash = file.lastIndexOf('/');
     var filename = '';
@@ -23,9 +34,7 @@ program
     } else {
       filePath = path.resolve(file);
     }
-    // var filename = lastSlash === -1 ? file : file.substring(lastSlash);
-    //
-    // var filePath = path.join(process.cwd(), path.resolve(file));
+
 
     console.log('Open file in the path:');
     console.log(filePath);
@@ -37,7 +46,7 @@ program
         var content = data;
         var encoded = base64.encode(content);
 
-        var url = 'http://www.jsoneditoronline.cn/?data=' + encoded;
+        var url = rootURL + '?data=' + encoded;
 
         console.log("If browser not opened in 5s, you also can copy the link below and paste it into browser address bar:");
         console.log('------======------');

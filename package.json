@@ -1,6 +1,6 @@
 {
   "name": "json-editor-online",
-  "version": "1.1.2",
+  "version": "1.2.3",
   "description": "Command line tool for jsoneditoronline.cn",
   "main": "json-editor.js",
   "scripts": {
