@@ -31,6 +31,8 @@ $ npm install -g json-editor-online
 
 $ json <filename.json>
 
+$ json <url>
+
 ```
 
 Videos：
@@ -58,8 +60,16 @@ Enjoy!
 官方 NPM package
 
 ```
-安装：npm install -g json-editor-online
-使用：json <filename.json>
+安装：
+
+$ npm install -g json-editor-online
+
+使用：
+
+$ json <filename.json>
+
+$ json <url>
+
 ```
 
 一条命令，解决所有烦恼。不谢！
