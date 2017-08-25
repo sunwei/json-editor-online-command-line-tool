@@ -1,6 +1,6 @@
 {
   "name": "json-editor-online",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Command line tool for jsoneditoronline.cn",
   "main": "json-editor.js",
   "scripts": {
@@ -30,7 +30,8 @@
     "commander": "^2.11.0",
     "jsonpack": "^1.1.5",
     "progress": "^2.0.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "urlencode": "^1.1.0"
   },
   "engines": {
     "node": ">=4.8.4",

@@ -6,6 +6,7 @@ var path = require('path');
 var jsonPack = require('jsonpack');
 var request = require('request');
 var ProgressBar = require('progress');
+var urlEncode = require('urlencode');
 var rootURL = 'http://www.jsoneditoronline.cn/';
 // var rootURL = 'http://localhost/';
 
@@ -98,7 +99,7 @@ program
       });
     } else {
       readJsonFile(file, function (jsonObj) {
-        var encoded = jsonPack.pack(jsonObj);
+        var encoded = urlEncode(jsonPack.pack(jsonObj));
         var url = rootURL + '?data=' + encoded;
 
         if(url.length > 8192){
