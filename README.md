@@ -8,7 +8,7 @@ CLI tool for opening a local file in [JSON editor online](http://www.jsoneditoro
 
 JSON editor online command line tool for you to edit you local json file online
 
-![Gif JSON editor online](http://opzmk10r6.bkt.clouddn.com/json-demo.gif)
+![Gif JSON editor online](./json-demo.gif)
 
 ### JSON editor online command line - free your hands
 
