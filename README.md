@@ -4,7 +4,7 @@
 [![Node version](https://img.shields.io/badge/node-%3E%3D4.8.4-brightgreen.svg)](https://www.npmjs.com/package/json-editor-online)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-CLI tool for opening a local file in [JSON editor online](http://www.jsoneditoronline.cn/). 
+CLI tool for opening a local file in [JSON editor online](https://jsoneditoronline.cn). 
 
 JSON editor online command line tool for you to edit you local json file online
 

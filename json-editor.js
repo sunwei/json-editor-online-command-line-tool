@@ -7,7 +7,7 @@ var jsonPack = require('jsonpack');
 var request = require('request');
 var ProgressBar = require('progress');
 var urlEncode = require('urlencode');
-var rootURL = 'http://www.jsoneditoronline.cn/';
+var rootURL = 'https://jsoneditoronline.cn/';
 // var rootURL = 'http://localhost/';
 
 

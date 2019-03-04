@@ -1,6 +1,6 @@
 {
   "name": "json-editor-online",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Command line tool for jsoneditoronline.cn",
   "main": "json-editor.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "command",
     "line"
   ],
-  "author": "Wayde Sun <wayde.sun@gmail.com> (http://www.jsoneditoronline.cn/)",
+  "author": "Wayde Sun <wayde.sun@gmail.com> (https://jsoneditoronline.cn/)",
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
